@@ -16,7 +16,7 @@ class MyHomePage extends StatefulWidget {
   _MyHomePageState createState() => _MyHomePageState();
 }
 
-// Variables//
+// Variables//22
 var play1Controller = TextEditingController();
 var play2Controller = TextEditingController();
 List<int> sumplayer1 = [];
