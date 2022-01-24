@@ -8,6 +8,7 @@ import 'Widgets/reset.dart';
 import 'Widgets/widget_of_number.dart';
 import 'AdMob/ads_manager.dart';
 
+
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key}) : super(key: key);
 
@@ -15,7 +16,7 @@ class MyHomePage extends StatefulWidget {
   _MyHomePageState createState() => _MyHomePageState();
 }
 
-// Variables
+// Variables//
 var play1Controller = TextEditingController();
 var play2Controller = TextEditingController();
 List<int> sumplayer1 = [];
@@ -103,7 +104,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: SingleChildScrollView(
           child: Column(
             children: [
-              _bannerAdWidget(),
+               _bannerAdWidget(),
               // لنا - النشره - لهم
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 34),
