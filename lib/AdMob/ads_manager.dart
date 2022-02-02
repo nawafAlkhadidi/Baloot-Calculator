@@ -11,9 +11,9 @@ class AdsManager {
     if (testMode == true) {
       return RewardedAd.testAdUnitId;
     } else if (Platform.isAndroid) {
-      return "ca-app-pub-1571703103044065/4157175333";
+      return "ca-app-pub-1571703103044065/2885703588";
     } else if (Platform.isIOS) {
-      return "ca-app-pub-3764698949994461/2794521471";
+      return "ca-app-pub-1571703103044065/2885703588";
     } else {
       throw UnsupportedError("Unsupported platform");
     }
@@ -23,9 +23,9 @@ class AdsManager {
     if (testMode == true) {
       return BannerAd.testAdUnitId;
     } else if (Platform.isAndroid) {
-      return "ca-app-pub-3764698949994461/2794521471";
+      return "ca-app-pub-1571703103044065/2885703588";
     } else if (Platform.isIOS) {
-      return "ca-app-pub-1571703103044065/6858117501";
+      return "ca-app-pub-1571703103044065/2885703588";
     } else {
       throw UnsupportedError("Unsupported platform");
     }
